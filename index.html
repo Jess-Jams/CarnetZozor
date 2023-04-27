@@ -1,115 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>TP Zozor Flexbox</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Font Google -->
-    <!--
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
--->
-</head>
 
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
     <!-- HEADER -->
     <header>
+      <div id="logo">
+        <img src="images/zozor_logo.png" alt="Logo" />
+        <h1>Zozor</h1>
+        <span>Carnet de Voyage</span>
+      </div>
 
-        <div id="logo">
-            <img src="images/zozor_logo.png" alt="Logo">
-            <h1>Zozor</h1>
-            <span>Carnet de Voyage</span>
-        </div>
-
-        <nav>
-            <ul>
-                <li id="textBarre"><a href="#">Accueil</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">CV</a></li>
-                <li><a href="#">Contact</a></li>
-
-            </ul>
-        </nav>
-
+      <nav>
+        <ul>
+          <li id="textBarre"><a href="#">Accueil</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">CV</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- BANNIERE -->
     <div id="banniere">
-
-        <div id="rubanNoir">
-            <p>Retour de mes vacances aux Etats-Unis.</p>
-            <a href="#">Voir l'article <img src="images/flecheblanchedroite.png" alt="Petite flèche"></a>
-        </div>
-
+      <div id="rubanNoir">
+        <p>Retour de mes vacances aux Etats-Unis.</p>
+        <a href="#"
+          >Voir l'article
+          <img src="images/flecheblanchedroite.png" alt="Petite flèche"
+        /></a>
+      </div>
     </div>
-
 
     <!-- MAIN CONTENT -->
     <section>
-        <article>
-            <h2><img src="images/ico_epingle.png" alt="Epingle">Je suis un grand voyageur</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio facere eligendi unde voluptas animi, nisi dicta soluta, error possimus, dolores delectus nemo reprehenderit, tenetur quo necessitatibus esse consequuntur! Vel, totam.</p>
+      <article>
+        <h2>
+          <img src="images/ico_epingle.png" alt="Epingle" />Je suis un grand
+          voyageur
+        </h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima amet,
+          sit harum delectus tenetur deleniti laboriosam doloremque in.
+          Distinctio amet incidunt pariatur non alias earum quia labore. Iusto
+          nobis quia aperiam minima? Ipsum aliquam ab fuga similique earum,
+          tenetur nulla quam, nesciunt iure sed illo quibusdam deserunt dolor
+          rem doloremque.
+        </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio facere eligendi unde voluptas animi, nisi dicta soluta, error possimus, dolores delectus nemo reprehenderit, tenetur quo necessitatibus esse consequuntur! Vel, totam.</p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ex
+          consequatur tenetur magnam hic voluptate soluta fuga dolorem, iste
+          mollitia velit temporibus itaque amet quia nesciunt laborum officiis
+          assumenda veritatis sapiente nostrum asperiores. Laboriosam tempora,
+          aspernatur saepe commodi quis a excepturi sed atque. Suscipit
+          voluptatum repellendus corporis dolore sed perspiciatis!
+        </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio facere eligendi unde voluptas animi, nisi dicta soluta, error possimus, dolores delectus nemo reprehenderit, tenetur quo necessitatibus esse consequuntur! Vel, totam.</p>
-        </article>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          dolor cum excepturi porro est hic aspernatur consequatur laborum
+          molestias nihil at, vel cumque soluta eos facilis sequi quidem aliquid
+          quisquam facere. Expedita voluptates libero nostrum odit eius.
+          Similique sapiente repudiandae dolorum ea quasi iste iusto, molestias
+          optio provident ipsa quisquam.
+        </p>
+      </article>
 
-        <aside>
-            <h3>A propos de l'auteur</h3>
-            <img src="images/zozor_classe.png" alt="Zozor photo de profil" id="photoProfil">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, saepe tempora.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, saepe tempora.</p>
+      <aside>
+        <h3>A propos de l'auteur</h3>
+        <img
+          src="images/zozor_classe.png"
+          alt="Zozor photo de profil"
+          id="photoProfil"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, saepe
+          tempora.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, saepe
+          tempora.
+        </p>
 
-            <img src="images/facebook.png" alt="Social">
-            <img src="images/facebook.png" alt="Social">
-            <img src="images/facebook.png" alt="Social">
-            <img src="images/facebook.png" alt="Social">
-        </aside>
-
+        <img class="social" src="images/facebook.png" alt="icone facebook" />
+        <img class="social" src="images/twitter.png" alt="icone twitter" />
+        <img class="social" src="images/vimeo.png" alt="icone vimeo" />
+        <img class="social" src="images/flickr.png" alt="icone flickr" />
+        <img class="social" src="images/rss.png" alt="icone rss" />
+      </aside>
     </section>
 
-    <div id="separateur"><img src="images/ico_top.png" alt=""></div>
+    <div id="separateur"><img src="images/ico_top.png" alt="" /></div>
 
     <footer>
+      <div id="tweet">
+        <h4>Mon dernier tweet</h4>
+        <p>Lorem ipsum !</p>
+        <p>14/06/2022</p>
+      </div>
 
-        <div id="tweet">
-            <h4>Mon dernier tweet</h4>
-            <p>Lorem ipsum !</p>
-            <p>14/06/2022</p>
+      <div id="photos">
+        <h4>Mes photos</h4>
+        <img src="images/photo1.jpg" alt="Album photo" />
+        <img src="images/photo2.jpg" alt="Album photo" />
+        <img src="images/photo3.jpg" alt="Album photo" />
+        <img src="images/photo4.jpg" alt="Album photo" />
+      </div>
+
+      <div id="amis">
+        <h4>Mes amis</h4>
+        <div id="listeAmis">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="images/ico_liensexterne.png" alt="Puce" />Lien</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/ico_liensexterne.png" alt="Puce" />Lien</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/ico_liensexterne.png" alt="Puce" />Lien</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/ico_liensexterne.png" alt="Puce" />Lien</a
+              >
+            </li>
+          </ul>
+          <ul id="listeAmis2">
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
+            <li><a href="#">Lien</a></li>
+          </ul>
         </div>
-
-        <div id="photos">
-            <h4>Mes photos</h4>
-            <img src="images/photo1.jpg" alt="Album photo">
-            <img src="images/photo2.jpg" alt="Album photo">
-            <img src="images/photo3.jpg" alt="Album photo">
-            <img src="images/photo4.jpg" alt="Album photo">
-        </div>
-
-        <div id="amis">
-            <h4>Mes amis</h4>
-            <div id="listeAmis">
-                <ul>
-                    <li><a href="#"><img src="images/ico_liensexterne.png" alt="Puce">Lien</a></li>
-                    <li><a href="#"><img src="images/ico_liensexterne.png" alt="Puce">Lien</a></li>
-                    <li><a href="#"><img src="images/ico_liensexterne.png" alt="Puce">Lien</a></li>
-                    <li><a href="#"><img src="images/ico_liensexterne.png" alt="Puce">Lien</a></li>
-                </ul>
-                <ul id="listeAmis2">
-                    <li><a href="#">Lien</a></li>
-                    <li><a href="#">Lien</a></li>
-                    <li><a href="#">Lien</a></li>
-                    <li><a href="#">Lien</a></li>
-                </ul>
-            </div>
-        </div>
-
+      </div>
     </footer>
-
-
-
-</body></html>
+  </body>
+</html>
