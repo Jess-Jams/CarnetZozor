@@ -1,0 +1,253 @@
+@font-face {
+    font-family: DancingScript;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+
+
+body {
+    background-image: url(../images/fond_jaune.png);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+    background-image: url(../images/separateur.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 15px;
+
+}
+
+nav {
+    position: relative;
+    top: 18px;
+}
+
+header li {
+    display: inline;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header img {
+    width: 40px;
+    position: relative;
+    top: 2px;
+}
+
+h1 {
+    display: inline;
+    font-family: 'DancingScript', cursive;
+}
+
+header span {
+    display: block;
+}
+
+
+/* BANNIERE */
+#banniere {
+    width: 800px;
+    height: 250px;
+    background-image: url(../images/sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+#banniere a {
+    color: white;
+    background-image: url(../images/fond_degraderouge.png);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#banniere a:hover {
+    background: purple;
+}
+
+#rubanNoir {
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#banniere p {
+    color: white;
+}
+
+
+/* MAIN CONTENT */
+section {
+    display: flex;
+    padding-top: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+article {
+    width: 70%;
+    margin-right: 20px;
+}
+
+/* SIDEBAR */
+aside {
+    width: 30%;
+    background: gray;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+}
+
+aside::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 100px;
+    left: -25px;
+    background-image: url(../images/bulle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+#photoProfil {
+    margin: auto;
+    display: block;
+}
+
+aside p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+
+footer ul {
+    /*    padding-left: 0px;*/
+}
+
+#listeAmis {
+    display: flex;
+}
+
+#listeAmis a {
+    text-decoration: none;
+    color: darkred;
+}
+
+#listeAmis ul {
+    margin: 0px;
+}
+
+#listeAmis ul:nth-child(1) {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#listeAmis ul:nth-child(1) img {
+    margin-right: 5px;
+}
+
+#listeAmis2 {
+    list-style-image: url(../images/ico_liensexterne.png);
+}
+
+#separateur {
+    width: 800px;
+    height: 3px;
+    background-image: url(../images/separateur.png);
+    background-repeat: repeat-x;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#separateur img {
+    display: block;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 576px) {
+    header {
+        display: block;
+        width: 100%;
+    }
+
+    header li {
+        display: block;
+        text-align: center;
+    }
+
+    #logo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    #banniere {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        display: block;
+    }
+
+
+    aside {
+        width: 50%;
+        margin: auto;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    #separateur,
+    article {
+        width: 100%;
+    }
+}
+
+#textBarre {
+    text-decoration: line-through;
+    text-decoration:
+}
